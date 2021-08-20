@@ -1,0 +1,35 @@
+
+table {
+  width: 95%;
+  margin: auto;
+}
+
+.mat-row .mat-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mat-row:hover .mat-cell {
+  border-color: currentColor;
+}
+
+.mat-column-name {
+  padding-left: 16px;
+  font-size: 1rem;
+}
+
+.mat-column-action {
+  text-align: center;
+}
+
+button {
+  margin-right: 6px;
+  width: 26px;
+  height: 26px;
+  line-height: 24px;
+}
+
+.action-link {
+  text-decoration: none;
+}

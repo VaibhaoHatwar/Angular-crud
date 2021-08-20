@@ -1,0 +1,17 @@
+<mat-card *ngIf= "userDetails">
+  <mat-card-title>{{ userDetails.name }}</mat-card-title>
+  <mat-card-content>
+    <p>Email :
+      <a href="mailto: {{ userDetails.email }}">{{ userDetails.email }}</a>
+    </p>
+  </mat-card-content>
+  <mat-card-content>
+    <mat-card-content>
+      <p>Phone :{{ userDetails.phone }}</p>
+    </mat-card-content>
+    <p>Company : {{ userDetails.company.name }}</p>
+  </mat-card-content>
+  <mat-card-content>
+    <p>Address : {{ userDetails.address.city }}</p>
+  </mat-card-content>
+</mat-card>
